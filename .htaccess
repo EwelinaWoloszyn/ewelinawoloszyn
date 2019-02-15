@@ -1,0 +1,50 @@
+# Begin default subdomain redirect #
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^ewelinawoloszyn.com
+RewriteRule ^(.*)$ http://www.ewelinawoloszyn.com/$1 [R=permanent,L]
+
+
+# End default subdomain redirect #
+# Begin cache control #
+ExpiresActive on
+ExpiresDefault "now plus 1440 minutes"
+ExpiresByType text/html "now plus 1440 minutes"
+<FilesMatch "\.(css|png|bmp|ico|htm|gff|html|js|jpg|jpeg|gif|gcf)$">
+FileETag MTime Size
+ExpiresDefault "now plus 1440 minutes"
+</FilesMatch>
+
+
+# End cache control #
+# Begin IP blocking #
+Order Allow,Deny
+Deny from 100.43.81.142
+Deny from 108.163.224.130
+Deny from 93.159.230.39
+Allow from all
+# End IP blocking #
+
+<IfModule mod_security2.c>
+SecRuleRemoveById 950109
+ SecRuleRemoveById 950120
+ SecRuleRemoveById 950901
+ SecRuleRemoveById 950119
+ SecRuleRemoveById 958291
+ SecRuleRemoveById 960006
+ SecRuleRemoveById 960024
+ SecRuleRemoveById 960032
+ SecRuleRemoveById 960010
+ SecRuleRemoveById 960034
+ SecRuleRemoveById 960035
+ SecRuleRemoveById 960038
+ SecRuleRemoveById 981260
+ SecRuleRemoveById 973338
+ SecRuleRemoveById 981036
+ SecRuleRemoveById 981243
+ SecRuleRemoveById 981246
+ SecRuleRemoveById 981247
+ SecRuleRemoveById 981257
+ SecRuleRemoveById 981260
+ SecRuleRemoveById 981318
+ SecRuleRemoveById 981319
+</IfModule>

@@ -1,0 +1,8 @@
+@font-face {
+    font-family: 'Helvetica37CondensedThinThin';
+    src: url('18886_helveticacdthn.eot');
+    src: url('18886_helveticacdthn.eot') format('embedded-opentype'),
+         url('18886_helveticacdthn.woff') format('woff'),
+         url('18886_helveticacdthn.ttf') format('truetype'),
+         url('18886_helveticacdthn.svg#Helvetica37CondensedThinThin') format('svg');
+}
