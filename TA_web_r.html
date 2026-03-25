@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html lang="en"> <!--<![endif]]-->
+<head>
+
+	<meta charset="utf-8">
+	<meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
+	<title>Ewelina Woloszyn | Graphic Design</title>
+	<meta name="Ewelina Woloszyn|Graphic Design">
+		<meta name="Keywords" content="graphic design, web design, digital design, mobile web design, infographics, typography, 3D, animation ">
+<meta name="Description" content="Hello, I'm a freelance graphic designer with digital design in focus. Feel free to take a look at my portfolio.">
+	
+
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+
+	<!-- CSS
+  ================================================== -->
+	
+	<link rel="stylesheet" href="stylesheets/base.css">
+	<link rel="stylesheet" href="stylesheets/skeleton.css">
+	<link rel="stylesheet" href="stylesheets/layout.css">
+	<link rel="stylesheet" href="http://api.maps.nokia.com/mobile/0.2.0/lib/mh5.css">
+	<link rel="stylesheet" href="http://api.maps.nokia.com/mobile/0.2.0/lib/colors.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	
+	 
+	
+
+	<!--[if lt IE 9]>
+		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+
+	<!-- Favicons
+	================================================== -->
+	
+	<style type="text/css">
+			.infobubble_content{
+				  color:black;
+				  background:white;
+				  border: 1px solid black;
+				  padding:0px;
+	.galleria{ width: 100%; height: 350px; background: #000 }
+	article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+		display: block; }				  
+			}
+#filter a.active {
+box-shadow: 1.5px 0 0 rgba(255, 255, 255, 0.2), -1.5px 0 0 rgba(255, 255, 255, 0.2), 1.5px 0 1.5px rgba(0,0,0,0.2) inset, -1.5px 0 1.5px rgba(0,0,0,0.2) inset;
+color: #00AA9C;}
+a, a:visited {
+color: #333;
+text-decoration: none;
+outline: 0;
+}
+nav#filter a, a:visited {
+padding: 4px;
+margin-right: 2px;
+}
+div#WidgetLauncher{
+direction:rtl;
+}
+ div#MicrosoftTranslatorWidget.Light{
+direction:rtl;
+margin-left: 25px;
+}
+ div#MicrosoftTranslatorWidget{
+ color: white;
+background-color: transparent;
+height: 35px;
+margin-bottom: 4px;}
+div#LauncherTranslatePhrase.WidgetEnabled a:hover, a:focus {
+color: #00AA9C;
+}
+div#LauncherTranslatePhrase.WidgetEnabled{
+padding-left:4px;
+padding-right:4px;
+background-color: rgb(153, 153, 153);
+width: 80%;
+height: 35%;}
+span#TranslateSpan{
+size: 12px;
+font-size: 12px;
+direction:rtl;
+}
+div#LauncherLogo.WithPhraseAfter{
+padding-top: 1px;
+padding-right: 1px;
+margin-right: 22px;
+}
+div#LauncherLogo.WithPhraseAfter span{
+color: transparent;
+}
+.Dark #LauncherWithSpan{
+color: transparent;
+}
+span#LauncherWithSpan{color: transparent;
+background-repeat: no-repeat;
+background-size: 100% 100%;
+size: 40px;
+margin-top: -4px;}
+ a#LauncherLogoLink img{
+display:none;
+}
+ #LauncherWithSpan {
+color: transparent;
+}
+ img#LauncherLogoImage {
+display:none;}
+	</style>
+
+
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js"></script>
+        <script src="jquery.quicksand.js"></script>
+        <script src="script.js"></script>
+		<script src="http://cdnjs.cloudflare.com/ajax/libs/jquery.form/3.32/jquery.form.js"></script>
+<script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.11.1/jquery.validate.min.js"></script>
+
+	<!--<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.js"></script>
+
+		quicksand en easing laden, alleen nodig voor projectenpagina
+
+		<script src="http://code.jquery.com/jquery-2.1.0-beta2.js"></script>
+		<script src="jquery.quicksand.min.js" type="text/javascript"></script>
+		<script src="jquery.easing.1.3.js" type="text/javascript"></script>
+		<script src="main.js" type="text/javascript"></script>-->
+	<!--slight variant on Chris Coyier's http://css-tricks.com/convert-menu-to-dropdown/ -->
+	<script type="text/javascript">
+		$(document).ready(function() {
+			
+				// Create the dropdown bases
+				$("<select />").appendTo(".navigation nav");
+				
+				// Create default option "Go to..."
+				$("<option />", {
+				   "selected": "selected",
+				   "value"   : "",
+				   "text"    : "Go to..."
+				}).appendTo("nav select");
+				
+				
+				// Populate dropdowns with the first menu items
+				$(".navigation nav li a").each(function() {
+				 	var el = $(this);
+				 	$("<option />", {
+				     	"value"   : el.attr("href"),
+				    	"text"    : el.text()
+				 	}).appendTo("nav select");
+				});
+				
+				//make responsive dropdown menu actually work			
+		      	$("nav select").change(function() {
+		        	window.location = $(this).find("option:selected").val();
+		      	});
+
+		});
+	</script>
+	  <script>
+$(document).ready(function() {
+  $('#nav').onePageNav({
+    begin: function() {
+	  console.log('start')
+    },
+    end: function() {
+	  console.log('stop')
+    }
+  });
+  
+  $('.do').click(function(e) {
+    $('#section-4').append('<p></p><p></p>');
+    e.preventDefault();
+  });
+  
+});
+</script>
+<script type="text/javascript">
+$('#LauncherTranslatePhrase').on('click', function() {
+  ga('send', 'event', 'button', 'click', 'nav-buttons');
+});
+</script>
+<script type="text/javascript">
+$('#submit').on('click', function() {
+  ga('send', 'event', 'button', 'click', 'nav-buttons');
+});
+</script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-35245083-1', 'ewelinawoloszyn.com');
+  ga('send', 'pageview');
+</script>
+
+</head>
+
+<body>
+	<div class="container">
+		<div class="sixteen columns">
+			<a href="index.html"><img src="images/mylogo.png"class="remove-bottom" style="margin-top: 40px;width:260px;"/></a>
+					
+			<div class="band navigation">
+	
+		<nav class="primary container">
+			<ul>
+  <li><a href="#section-4">Contact</a></li>  
+  <!--<li><a href="#section-2">Process</a></li>-->
+  <li><a href="#section-3">About designer</a></li>
+  <li><a href="#section-1">Case studies</a>
+  <!--<ul class="filter group">
+  <li class="current all"><a href="#"><span>- </span>All</a></li>
+  <li class="segment-0"><a href="#"><span>- </span>Mobile</a></li>
+  <li class="web"><a href="#"><span>- </span>Web</a></li>
+  <li class="print"><a href="#"><span>- </span>Print</a></li>
+  <li class="animation"><a href="#"><span>- </span>Animation</a></li>
+  <li class="typography"><a href="#"><span>- </span>Typography</a></li>
+  </ul>-->
+  </li>
+  </nav>
+  </div>
+</ul>
+			<hr />
+<div class="sixteen columns"style="float:left;">
+<div class="beta">
+<h4>TA-website</h4><p> 
+TA is a interior finishing company. It's a client, for whom I have designed and created first webside and branding in 2014. Following website and logo I redesigned recently.The website is fully responsive and contains mini interactions, like image zoom in on hover. 
+</p>
+<li>Typography</li>
+<li>Web design</li>
+<li>Illustrator</li>
+<li>Photoshop</li>
+<li>HTML5</li>
+<li>CSS3</li>
+<p></p>
+<h4>The Process</h4><p>I follow IDEO design process, as I had opportunity to visit IDEO offices and brainstorm a project ideas with their Senior Interaction Designer. </p>
+<h5 style="color:#00AA9C;">Understand &#8594; Observe &#8594; Visualize &#8594; Evaluate &#8594; Refine &#8594; Implement</h5>
+<p></p>
+<h4 style="color:grey;">Understand & Observe</h4>
+<p>The entire construction and finishing sector reached a value of over PLN 350 billion in 2024, with a forecast of exceeding PLN 400 billion by 2026. The interior finishing services market in Poland in 2024/2025 is a sector dominated by professionalization, stabilization of material prices and growing demand for comprehensive services. Platforms such as Oferteo are recording a dynamic increase in inquiries about renovation and installation services.</p>
+<h4 style="color:grey;">Visualize</h4>
+<p>After competition comparison, I have done eleven iterations of homepage idea starting from low fidelity to html mockups.</p>
+<div style="margin-left:32px;"><img src= "wireframes_tomek_r01_grey.jpg" alt="wireframes_01" width="70%" style="float:left;margin-bottom:30px;" /></img></div> 
+<div style="margin-left:32px;"><img src= "wireframes_tomek_r02_grey.jpg" alt="wireframes_02" width="70%" style="float:left;margin-bottom:30px;" /></img></div> 
+<div style="margin-left:32px;"><img src= "realisations_02.png" alt="realisations_02" width="70%" style="float:left;margin-bottom:30px;" /></img></div> 
+<div style="margin-left:32px;">
+<video width="70%" height="70%" poster="realisations_02.png" autoplay loop muted>
+    <source src="realisations_02_movie.webm" type="video/webm">
+    Your browser does not support the video tag.
+</video></div>
+<p></p>
+<h4 style="color:grey;">Evaluate & Refine</h4>
+<p>After testing high fidelity mpckups, I have simplified the homepage idea and cut some on hover interactions in realisations page. This finally led to the outcome as seen below.</p>
+<h4 style="color:grey;">Implement</h4>
+<p>The website implementation included creating a number of responsive views and testing on varied devices.</p>
+</div>
+
+<div class="sixteen columns"><div style="margin-left:32px;"><p></p><h4>Final homepage:</h4><p></p><p></p></div>
+<div style="margin-left:32px;"><img src= "tomek_hompage.jpg" alt="homepage" width="90%"style="float:left;margin-bottom:30px;" /></img></div>
+<div style="display: grid; grid-template-columns: 1fr 1fr;gap: 10px;float:left;"><div style="margin-left:32px;margin-bottom:14px;"><h6 style="margin-top:10px; margin-bottom:10px; line-height:21px;">Tablet view</h6><p></p><img src="tomek_homepage_ipad.jpg" alt="homepage_ipad" width="60%" style="float:left;margin-bottom:24px;margin-right:10px" /></img><p></p></div>
+<div style="margin-left:32px;margin-bottom:14px;"><h6 style="margin-top:10px; margin-bottom:10px; line-height:21px;">Mobile view</h6><p></p><img src="tomek_homepage_iphone.jpg" alt="homepage_iphone" width="41.46%" style="float:left;margin-bottom:24px;" /></img><p></p></div></div>
+<div style="float:left; margin-left:32px;"><h4>Realisations:</h4><p></p><div><div style="float:left;"><h6>Web view</h6><img src="tomek_realizacje.jpg" alt="realisations" width="90%" style="float:left;margin-bottom:10px;"/></div>
+<div style="display: grid; grid-template-columns: 1fr 1fr;gap: 10px;float:left;"><div style="margin-left:32px;margin-bottom:14px;"><h6 style="margin-top:10px; margin-bottom:10px; line-height:21px;">Tablet view</h6><p></p><img src="tomek_realizacje_ipad.jpg" alt="realizacje_ipad" width="60%"style="margin-bottom:24px;margin-right:10px; float:left;" /></div>
+<div style="margin-left:32px;margin-bottom:14px;"><h6 style="margin-top:10px; margin-bottom:10px; line-height:21px;">Mobile view</h6><p></p><img src="tomek_realizacje_iphone.jpg" alt="realizacje_iphone" width="41.46%" style="margin-bottom:24px; float:left;" /></div>
+</div></div>
+</div>
+
+</hr>
+<div class="sixteen columns">
+<div id="section-1">
+<h3>Case studies</h3>
+      <p>Click images below to see more details about the projects. Filter them by date or category with following options:</p>
+      <p></p>
+<form id="myfilter">
+  <fieldset>
+    <legend style="margin-bottom:10px;">Filter by type</legend>
+
+<nav id="filter"></nav>
+ 
+  </fieldset>
+ 
+</form>
+<hr>
+<div class=demo >
+<ul id="stage" class="image-grid"style="height: 793px; max-width:960px;margin-left:0px;">
+<li data-tags="Web" data-type="web">
+    <a href="TA_web_r.html"> <img width="200" height="200" src="TA_recent_web.jpg" /></a>
+    <strong>TA Website</strong> 
+    <span data-type="size">recent</span>
+  </li>
+<li data-tags="Branding" data-type="brand">
+    <a href="index12.html"> <img width="200" height="200" src="images/200x200_branding.jpg" /></a>
+    <strong>Alchimionek Branding</strong> 
+    <span data-type="size">2013</span>
+  </li>
+    <li data-tags="Web" data-type="web">
+    <a href="index13.html"> <img width="200" height="200" src="images/200x200_piktogram.png" /></a>
+    <strong>Alchimionek Website</strong> 
+    <span data-type="size">2013</span>
+  </li>
+ <li data-tags="Web" data-type="web">
+    <a href="index15.html"> <img width="200" height="200" src="images/ta_logo03.jpg" /></a>
+    <strong>TA Website</strong> 
+    <span data-type="size">2014</span>
+  </li>
+  <li data-tags="Branding" data-type="brand">
+    <a href="index14.html"> <img width="200" height="200" src="images/ta_logo02.jpg" /></a>
+    <strong>TA Branding</strong> 
+    <span data-type="size">2014</span>
+  </li>
+  <li data-tags="Web" data-type="web">
+    <a href="index01.html"><img width="200" height="200" src="images/snap4.jpg" /></a>
+    <strong>Snap Fashion</strong> 
+    <span data-type="size">2012</span>
+  </li>
+ <li data-tags="Branding" data-type="brand">
+    <a href="certum.html"><img width="200" height="200" src="images/certum_thunb_branding.jpg" /></a>
+    <strong>Certum branding</strong> 
+    <span data-type="size">2014</span>
+  </li>
+    <li data-tags="Web" data-type="web">
+    <a href="certum_web.html"><img width="200" height="200" src="images/certum_thunb_web02.jpg" /></a>
+    <strong>Certum web</strong> 
+    <span data-type="size">2014</span>
+  </li>
+   <li data-tags="Branding" data-type="brand">
+    <a href="index16.html"> <img width="200" height="200" src="images/santi_logo_200.jpg" /></a>
+    <strong>Santi</strong> 
+    <span data-type="size">2013</span>
+  </li>
+   <li data-tags="Branding" data-type="brand">
+      <a href="index07.html"><img width="200" height="200" src="images/bbc.jpg" /></a>
+   <strong>BBC Broadcasting House</strong> 
+    <span data-type="size">2011</span>
+  </li>
+  <li data-tags="Branding" data-type="brand">
+      <a href="index23.html"><img width="200" height="200" src="images/hud_small02.svg" /></a>
+   <strong>Hud branding</strong> 
+    <span data-type="size">2017</span>
+  </li>
+ 
+   <li data-tags="Web" data-type="typo">
+      <a href="index25.html"><img width="200" height="200" src="images/trubrain_small.jpg" /></a>
+   <strong>Trubrain</strong> 
+    <span data-type="size">2016</span>
+  </li>
+
+</ul>
+</div>
+ </div>
+</div>
+ </div>
+
+<hr>
+			<div class="one-third column">
+		<div id="section-3"> 
+			<h3>About</h3>
+		<p></p>
+    <strong>Open Knowledge</strong>
+    <p></p>
+    <blockquote>
+  <p>'Ewelina completed some work for Open Knowledge, working on designs and code to support some website improvements and laying out some reports for us. Ewelina is a conscientious and hard worker, who shows real commitment to her work and will push herself to do her best work possible'</p>
+  <cite>Jo Barratt, Project manager at Open Knowledge</cite>
+</blockquote>
+<strong>Alchimionek</strong>
+<p></p>
+<blockquote>
+  <p>'Ewelina is talented designer and great to work with. She's very innovative and always looking for a new solutions and fresh ideas that can advance her knowledge to exceed clients expectations and goals. Ewelina is a passionate designer and always seems to have great awareness of new creative strategies and technology. Highly recommended.'</p>
+  <cite>Alicja Alchimionek, Founder & Head Designer at Alchimionek</cite>
+</blockquote>
+
+
+		</div>
+		</div>
+		<div id="route" style="width: 320px; position: relative;"></div>
+
+	
+		<div class="one-third column">
+<p></p>
+<p></p>
+<p></p>
+<h3></h3>		
+<strong>Co&amp;Co UK</strong>
+<p></p>		
+<blockquote>
+  <p>'Ewelina worked at coANDco in design and user experience. She is a pleasure to work with and she is very talented. She helped us creating and illustrating mobile user experiences for large brands which impressed our clients.<br>I can highly recommend Ewelina as a creative, talented, keen and ambitious member of any team!'</p>
+  <cite>Christoph Burgdorfer, Managing Director, Partner, Founder, coANDco (UK) Ltd</cite>
+</blockquote>
+			
+		</div>
+		<div class="one-third column">
+			<h3>My work online</h3>
+<p></p>
+    <p><a href="https://tomaszalchimionek.pl/" style="color:#00AA9C;">TA</a></p>
+
+    <p><a href="https://www.cdo-renov.ch/" style="color:#00AA9C;">CDO</a></p>
+
+    <p><a href="https://ewelinawoloszyn.github.io/aboutme/homepage.html" style="color:#00AA9C;">Open Knowledge - about me</a></p>
+
+    <p><a href="https://ewelinawoloszyn.github.io/Form/" style="color:#00AA9C;">Open Knowledge - contribution form</a></p>
+			<p><a href="http://www.openprocessing.org/user/11716"style="color:#00AA9C;">Processing Sketches</a></p>
+				
+		</div>
+		<hr/>
+		<div id="section-4"> 
+		<div class="twelve columns">
+		<h3>Would you like to cooperate?
+		Get in touch</h3>
+		<p></p>
+<div id="contact">
+        
+        <div id="contact-form">
+            <form method="POST" action="https://formspree.io/woloszynewelina1@gmail.com">
+                <input type="hidden" name="_subject" value="Contact request from personal website" />
+                <input type="email" name="_replyto" placeholder="Your email" required>
+                <textarea name="message" placeholder="Your message" required></textarea>
+                <button type="submit">Send</button>
+            </form>
+        </div>
+        <!-- End #contact-form -->
+</div></div>
+		<hr/>
+<footer>
+<p style="width: 150px;float: left;">All rights reserved.</p> <div class="sociall"><ul><li><a href="https://twitter.com/w_woloszyn" class="fa fa-twitter"></a></li><li><a href="https://www.linkedin.com/in/ewelina-woloszyn-124b6830/" class="fa fa-linkedin"></a></li><li><a href="https://plus.google.com/u/0/116791140830050074549" class="fa fa-google-plus"></a></li></ul></div>
+</footer>
+
+	</body>
+
+</html>
